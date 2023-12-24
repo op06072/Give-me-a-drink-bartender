@@ -467,7 +467,7 @@ if __name__ == '__main__':
     )
     parser.add_argument('--seed', type=int, default=0, help='The PRNG seed')
     parser.add_argument('--log-limit', type=int, default=5, help='The number of saved chat logs to use in LLM.')
-    parser.add_argument('--ko', '-k', action='store_true', default=False)
+    parser.add_argument('--ko', '-k', action='store_true', default=False, help='Option for custom llama model to use korean.')
 
     arguments = parser.parse_args()
 

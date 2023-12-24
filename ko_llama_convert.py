@@ -1,5 +1,4 @@
 import argparse
-import collections
 import copy
 import glob
 import json
